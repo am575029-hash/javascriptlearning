@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+     user-select: none;
+   
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    color: #555;
+}
+#but{
+
+    padding: 12px 12px;
+    background-color: rgb(44, 44, 236);
+    color: aliceblue;
+    font-weight: bold;
+  border-radius: 4px;
+}
+#but:hover{
+    padding: 14px 14px;
+    background-color: rgb(10, 10, 196);
+}

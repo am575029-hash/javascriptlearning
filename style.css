@@ -1,0 +1,21 @@
+.colore{
+    color: red;
+    font-size: larger;
+    font-weight: 800;
+    animation: ani 2s infinite;
+}
+
+@keyframes ani{
+
+   from{
+    color: rgb(0, 13, 255);
+   }to{
+    color: red;
+   }
+
+}
+    
+h1{
+    text-transform: capitalize;
+}
+

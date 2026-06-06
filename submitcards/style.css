@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+  color: aliceblue;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  background-color: rgb(75, 73, 73);
+}
+
+input {
+  display: block;
+  padding: 10px;
+  color: black;
+  border: 2px solid aliceblue;
+}
+
+.card {
+    margin: 10px;
+  margin-top: 30px;
+  display: inline-block;
+  padding: 20px;
+  max-width: 430px;
+min-width: 400px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background:linear-gradient(to right,rgba(181, 3, 241, 0.528)
+  ,rgba(0, 132, 255, 0.443));
+
+}
+#pic{
+    height: 40px;
+    width: 40px;
+    border: 2px solid wheat;
+    border-radius: 50px;
+}
+#pic img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
