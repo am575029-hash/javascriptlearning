@@ -11,17 +11,35 @@ body {
   height: 100%;
 }
 #main {
-  height: auto;
+  position: relative;
+  min-height: 100%;
+ height: auto ;
   width: 100%;
   padding: 30px;
   background-color: rgb(75, 73, 73);
-}
+ 
 
+}
+form{
+  position: relative;
+display: flex;
+flex-direction: column;
+gap: 10px;
+width: 380px;
+justify-self: center;
+
+
+}
 input {
-  display: block;
+  
   padding: 10px;
   color: black;
-  border: 2px solid aliceblue;
+  border: 2px solid rgb(85, 87, 89);
+  background-color: rgb(63, 61, 61);
+  border-radius: 10px;
+}
+input:hover{
+  scale: 1.02;
 }
 
 .card {
@@ -33,9 +51,12 @@ input {
 min-width: 400px;
   border: 2px solid white;
   border-radius: 10px;
-  background:linear-gradient(to right,rgba(181, 3, 241, 0.528)
-  ,rgba(0, 132, 255, 0.443));
+  background:linear-gradient(to right ,rgba(181, 3, 241, 0.528)
+  ,rgba(0, 132, 255, 0.443),rgb(211, 162, 14),rgb(4, 202, 126));
 
+}
+.card:hover{
+  scale: 1.02;
 }
 #pic{
     height: 40px;
@@ -47,4 +68,14 @@ min-width: 400px;
     height: 100%;
     width: 100%;
     overflow: hidden;
+}
+button{
+
+position: relative;
+top: -18px;
+left: 350px;
+background-color: rgb(71, 68, 68);
+color: red;
+padding: 1px 4px;
+border: 1px solid black;
 }
