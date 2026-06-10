@@ -198,15 +198,15 @@
 // });
 
 
-// let dev= document.querySelector(".device")
-// let sel=document.querySelector("select");
+let dev= document.querySelector(".device")
+let sel=document.querySelector("select");
 
-// sel.addEventListener("change",function(det){
+sel.addEventListener("change",function(det){
 
-//     console.log(det.target.value);
-//     dev.textContent=`${det.target.value} your Device `;
+    console.log(det.target.value);
+    dev.textContent=`${det.target.value} your Device `;
 
-// });
+});
 
 
 
